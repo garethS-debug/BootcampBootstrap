@@ -29,6 +29,7 @@ header {
 }
 
 
+
 /* The styling for the group of 3 buttons */
 .header-button {
   display: inline-block;
@@ -77,9 +78,9 @@ header {
   flex: 0 0 auto;
 }
 
-.navbar-nav {
+/* .navbar-nav {
   margin-left: auto;
-}
+} */
 
 /* this is the right group (2 buttons) */
 .user-buttons {
@@ -282,7 +283,7 @@ justify-content: flex-start;
   /* margin: 20px 90px;  */
    align-items: center;
 }
-
+/* 
 .btn {
     transition: all 0.3s ease-in-out;
   font-family: "Dosis", sans-serif;
@@ -301,7 +302,7 @@ justify-content: flex-start;
   color: white;
 
   
-}
+} */
 
 .btn:hover {
   transform: translateY(3px);

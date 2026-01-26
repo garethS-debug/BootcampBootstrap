@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Flight Search</title>
 
@@ -16,11 +17,13 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+      <ul class="navbar-nav ms-auto">
+        <div class="d-flex gap-1 gap-md-3">
+        <li class="nav-item ">
           <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-          <button type="button" class="btn btn-primary" onclick="location.href='index_bs_2.html'">Home</button>
+          <button type="button" class="btn btn-primary " onclick="location.href='index_bs_2.html'">Home</button>
         </li>
         <li class="nav-item">
           <!-- <a class="nav-link" href="#">Features</a> -->
@@ -29,9 +32,9 @@
         <li class="nav-item">
          <button type="button" class="btn btn-primary" onclick="location.href='contact.html'">Contact</button>
         </li>
+        </div>
       </ul>
     </div>
-  </div>
 
           <div class="user-buttons">
         <button type="button" class="icon-btn"><img src="./img/AddUserFriend.png" alt="User"></button>
