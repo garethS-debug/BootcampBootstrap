@@ -80,6 +80,10 @@ header {
   flex: 0 0 auto;
 }
 
+.navbar-nav {
+  margin-left: auto;
+}
+
 /* this is the right group (2 buttons) */
 .user-buttons {
   /* margin-left: auto;  */
@@ -118,22 +122,23 @@ header {
 }
 
 .hero__visual {
-  position: relative;
-  justify-self: end; /* keeps the visual on the right column */
-  align-self: center;
+  /* position: relative;
+  justify-self: end; 
+  align-self: center; */
 }
-
 
 .hero__visual img{
-  position: relative; 
-  width: 100%;
-  height: auto;
-  max-width: 200px; /* constrain size so it scales down */
-  display: block;
+  /* position: relative;  */
+  /* width: 100%; */
+  /* scale: 3.9;
+  height: auto; */
+  max-width: 200px; 
+  /* display: block;
   margin: 0;
-  padding-right: 150px;
+  padding-right: 150px; */
 
 }
+
 
 .hero {
   display: flex;
@@ -264,10 +269,10 @@ justify-content: flex-start;
 
 /*--- search button ---*/
 
-.btn {
-  transition: all 0.3s ease-in-out;
-  font-family: "Dosis", sans-serif;
-}
+/* .btn-primary{
+  background-color: #1aa839;
+
+} */
 
 .contact-btn {
   transition: all 0.3s ease-in-out;
@@ -283,6 +288,11 @@ justify-content: flex-start;
 }
 
 .btn {
+    transition: all 0.3s ease-in-out;
+  font-family: "Dosis", sans-serif;
+  scale: 0.7;
+
+
   width: 150px;
  height: 100%; 
   border-radius: 50px;
@@ -293,6 +303,8 @@ justify-content: flex-start;
   border: none;
   font-size: 24px;
   color: white;
+
+  
 }
 
 .btn:hover {
@@ -367,6 +379,20 @@ input:hover {
 }
 
 /* Contact CSS */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+
+}
 
 .contact_container {
   display: flex;
