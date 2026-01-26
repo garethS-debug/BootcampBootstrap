@@ -4,9 +4,6 @@ body {
 
 }
 
-
-
-/* Defining CSS variables for consistent theming throughout the stylesheet */
 :root{
     --contact-form-bg: #bcbcbc; /* contact form background color */
     --bg: #F5F5F5; /* general background color */
@@ -44,7 +41,7 @@ header {
   transition-duration: .3s;
   border: 1px solid transparent;
   letter-spacing: 2px;
-  min-width: 0; /* min width allows buttons to shrink - allowing items to shrink smaller than their content if needed to fit the container */
+  min-width: 0; 
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
@@ -100,7 +97,6 @@ header {
   scale: calc(0.9);
 }
 
-/* this removes the defualt button style */
 .icon-btn {
   background: none;
   border: none;
@@ -333,7 +329,7 @@ input:hover {
 }
 
 
-/* Placing the responsive functions to remind me to fill them later*/
+
 @media (max-width: 900px) {
   .test {
     flex-direction: column;
@@ -406,7 +402,6 @@ input:hover {
   margin: 0 auto;
 }
 
-/* Allow swapping order without editing HTML: add class "swap-order" */
 .contact_container.swap-order {
   flex-direction: row-reverse;
 }
@@ -440,7 +435,7 @@ input:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: stretch; /* Ensures inputs stretch to full width */
+  align-items: stretch; 
 }
 
 .form-header {
